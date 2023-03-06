@@ -1,0 +1,26 @@
+body{
+  background: red;
+
+}
+
+form{
+  background: salmon;
+  padding: 30px;
+  width: 50%;
+  margin: auto;
+  max-width: 500px;
+  border: 2px solid;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input{
+  display: block;
+  padding: 10px;
+  width: 50%;
+  margin: 30px 0px;
+  font-size: 20px;
+}

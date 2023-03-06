@@ -1,0 +1,64 @@
+.navenlace{
+  display: inline-block;
+  background: salmon;
+  color: azure;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+/* El navenlace permite darle estilos a la caja de navegación.
+esta es una clase creada en el documento html */
+.navenlace:hover{
+  background: rosybrown;
+}
+
+/* El nav es la clase padre */
+nav{
+  background: rebeccapurple;
+  padding: 10px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.b2{
+  background: salmon;
+  color: azure;
+  padding: 10px 0px;
+  display:none;
+}
+
+/* @media permite crear una subclase de estilos CSS, esto ayuda a darle un estilo distinto
+en caso de que se diseñe una web para usarse también en dispositivos móviles */
+
+@media (max-width: 600px){ 
+  nav{
+      background: black;
+      flex-direction: column;
+  }
+  .navenlace{
+    margin: 10px 0px;
+  }
+  .b2{
+    background: salmon;
+  color: azure;
+  padding: 10px 0px;
+  border: 3px solid blanchedalmond;
+
+  display:inline-block;
+  }
+}
+
+.b1{
+  background: rgb(244, 232, 19);
+  color:darkgreen
+}
+/* hace que el botón cambie de color al pasar el puntero del mouse sobre el botón */
+
+.b1:hover{
+  background: aquamarine;
+}
+
+/* Hace que el botón cambie de color al ser presionado */
+.b1:active{
+background: orangered;
+}
